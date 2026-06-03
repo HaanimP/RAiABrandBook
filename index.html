@@ -498,6 +498,54 @@
     .icon-row { grid-template-columns: repeat(2, 1fr); }
     .palette-strip { grid-template-columns: repeat(4, 1fr); height: auto; }
     .swatch { padding: 1.5rem 0.75rem; }
+    .section { padding: 4rem 1.5rem; }
+    .section-header { flex-direction: column; align-items: flex-start; }
+    .section-label { margin-left: 0; margin-top: 1rem; }
+    .section-title { font-size: 1.75rem; }
+    .type-showcase { padding: 2rem 1.5rem; }
+  }
+
+  @media (max-width: 480px) {
+    .cover { padding: 2rem 1rem; }
+    .cover-eyebrow { font-size: 9px; margin-bottom: 1.5rem; }
+    .cover-logo-img { height: 48px; margin-bottom: 2rem; }
+    .cover-title { font-size: clamp(2.5rem, 6vw, 5rem); margin-bottom: 1rem; }
+    .cover-sub { font-size: 12px; margin-bottom: 2.5rem; }
+    .nav-pill { padding: 0.4rem 1rem; font-size: 11px; }
+    .section { padding: 3rem 1rem; }
+    .section-num { font-size: 2.5rem; }
+    .section-title { font-size: 1.5rem; }
+    .icon-row { grid-template-columns: 1fr; }
+    .palette-strip { grid-template-columns: repeat(2, 1fr); }
+    .type-display { font-size: 2.5rem; }
+    .type-scale-label { min-width: 70px; font-size: 9px; }
+    .asset-card-preview { min-height: 150px; }
+    .banner-preview { padding: 1rem; }
+    .section-header { gap: 0.75rem; }
+  }
+
+  @media (max-width: 380px) {
+    .cover { padding: 1.5rem 0.75rem; }
+    .cover-eyebrow { font-size: 8px; margin-bottom: 1rem; }
+    .cover-logo-img { height: 40px; margin-bottom: 1.5rem; }
+    .cover-title { font-size: clamp(2rem, 5vw, 4rem); margin-bottom: 0.75rem; }
+    .cover-sub { font-size: 11px; margin-bottom: 2rem; }
+    .cover-nav { gap: 0.5rem; }
+    .nav-pill { padding: 0.35rem 0.8rem; font-size: 10px; }
+    .cover-divider { height: 60px; margin-top: 2rem; }
+    .section { padding: 2rem 0.75rem; }
+    .section-num { font-size: 2rem; }
+    .section-title { font-size: 1.25rem; }
+    .section-header { gap: 0.5rem; padding-bottom: 1rem; }
+    .section-label { font-size: 9px; }
+    .palette-strip { grid-template-columns: 1fr; height: auto; }
+    .type-showcase { padding: 1.5rem 1rem; }
+    .type-display { font-size: 1.75rem; }
+    .type-meta { font-size: 10px; margin-bottom: 1rem; }
+    .type-scale-row { gap: 1rem; padding: 0.75rem 0; }
+    .asset-grid { gap: 1rem; }
+    .footer-logo { height: 24px; }
+    .footer-text { font-size: 11px; }
   }
 
   /* LIGHTBOX */
